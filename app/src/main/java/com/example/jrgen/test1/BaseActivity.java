@@ -1,6 +1,5 @@
 package com.example.jrgen.test1;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -49,7 +48,7 @@ abstract class BaseActivity extends AppCompatActivity implements View.OnClickLis
         warning.setCustomObjectListener(new HardwareButtonPress.MyListener() {
             @Override
             public void yes() {
-                if(keyCode == KeyEvent.KEYCODE_BACK && ChangeActivity.currentActivity > 1) {
+                if(keyCode == KeyEvent.KEYCODE_BACK && com.example.jrgen.test1.ChangeActivity.currentActivity > 1) {
                     // If 'Back'-Button -> load previous Activity
                     changeActivity.setCurrentActivity(changeActivity.getCurrentActivity()-2);
                     nextActivity();

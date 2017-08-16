@@ -70,7 +70,7 @@ public class ExplanatoryScreen extends BaseActivity implements View.OnClickListe
                             .getLaunchIntentForPackage( getBaseContext().getPackageName() );
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
-                    //ChangeActivity.loadActivity(this,1);                                          // DEMO
+                    //changeActivity.loadActivity(this,1);                                          // DEMO
                 } else                                                                              // DEMO
                 changeActivity.loadSkipScreen(this);
                 break;

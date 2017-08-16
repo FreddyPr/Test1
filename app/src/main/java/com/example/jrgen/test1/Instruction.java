@@ -92,7 +92,7 @@ public class Instruction extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void nextActivity() {
-        if(ChangeActivity.currentActivity != 13 && startTime != 0)
+        if(com.example.jrgen.test1.ChangeActivity.currentActivity != 13 && startTime != 0)
             // Not the Ending-Text && not restarted the Activty via BackButton
             calculateReadingSpeed();
         super.nextActivity();

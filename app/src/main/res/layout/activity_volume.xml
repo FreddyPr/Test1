@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/activity_lautstaerke"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.jrgen.test1.Volume">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:layout_gravity="center"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volumeTitle"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:id="@+id/toolbar_title" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=""
+            android:id="@+id/textView1"
+            android:textColor="@android:color/black"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1.05"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/volumeDown"
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_marginRight="8sp"
+            android:textAllCaps="false"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/volumeUp"
+            android:layout_width="0dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="8sp"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:text="@string/pContinue"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:id="@+id/button1" />
+    </LinearLayout>
+</LinearLayout>

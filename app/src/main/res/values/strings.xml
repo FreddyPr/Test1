@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Personalisierungstest</string>
+
+    <string name="pContinue">Weiter</string>
+    <string name="maximum">Maximum erreicht</string>
+    <string name="minimum">Minimum erreicht</string>
+    <string name="skip">Überspringen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="shrink">Kleiner</string>
+    <string name="enlarge">Größer</string>
+    <string name="volumeUp">Lauter</string>
+    <string name="volumeDown">Leiser</string>
+
+    <string name="back">Zurück</string>
+    <string name="backText">Sie haben die Zurück-Taste betätigt. War das beabsichtigt?</string>
+    <string name="menuText">Sie haben die Menü-Taste betätigt. War das beabsichtigt?</string>
+    <string name="menu">Menü</string>
+    <string name="volume">Lautstärke</string>
+    <string name="home">Startbildschirm</string>
+    <string name="homeText">Sie haben die Home-Taste betätigt. War das beabsichtigt?</string>
+    <string name="volumeText">Sie haben die Lautstärke-Taste betätigt. War das beabsichtigt?</string>
+
+    <string name="explanatoryScreenTitle">Start der App</string>
+    <string name="explanatoryScreenReloadTitle">Start der App</string>
+    <string name="skipScreenTitle">Überspringen</string>
+    <string name="textSizeTitle">Text gut lesbar?</string>
+    <string name="rememberPatternTitle">Muster Merken</string>
+    <string name="colourTitle">Farbe Wählen</string>
+    <string name="volumeTitle">Lautstärke</string>
+    <string name="enterPatternTitle">Muster Eingeben</string>
+    <string name="pushPointsTitle">Kreuz berühren</string>
+    <string name="endingTitle">Ende</string>
+
+    <string name="description">Wir möchten Sie bitten, einen kurzen Test zu durchlaufen, damit wir Sie besser kennenlernen. Die App startet danach automatisch und passt sich individuell auf Sie an. Drücken Sie nun auf Weiter.</string>
+    <string name="descriptionReload">Die Personalisierungsapp wurde zwischenzeitlich unterbrochen. Wir bitten Sie, sich kurz die Zeit zu nehmen und den Test abzuschließen, um nachgestellte Apps persönlich auf ihre Wünsche und Bedürfnisse anpassen zu können.</string>
+    <string name="reminderQuestion">Möchten Sie bei neuerlichem Start der App an die Durchführung des Tests erinnert werden?</string>
+    <string name="instructionTextSize">Können Sie den Text in dieser Schriftgröße gut lesen? Falls dies nicht der Fall sein sollte, können Sie unten links oder rechts auf den Knopf drücken, und somit die Schrift verändern. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionRememberPattern">Durch Drücken auf Weiter erscheint ein Muster. Merken Sie sich dieses Muster bitte, da es zum Ende hin abgefragt werden wird. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionColour">Es werden ihnen verschiedene Farben zur Auswahl gestellt. Wählen Sie bitte &lt;b>eine&lt;/b> dieser Farben aus, indem Sie diese berühren und bestätigen Sie die Eingabe. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionPushPoints">Es erscheint ein rotes Kreuz. Berühren Sie das rote Kreuz bitte genau &lt;b>einmal&lt;/b>. Danach wird sich die Position des Kreuzes verändern. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionVolume">Es wird ein Musikstück abgespielt. Mittels den entsprechenden Knöpfen können Sie die Lautstärke leiser oder lauter stellen, bis Sie diese als angenehm empfinden. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionEnterPattern">Geben Sie bitte das Muster von ganz zu Anfang ein, indem Sie die entsprechenden Quadrate berühren. Drücken Sie nun auf Weiter.</string>
+    <string name="instructionEnding">Vielen Dank für ihre Zeit. Der Test ist vorbei.</string>
+
+    <string name="redCross">Dies ist das Fadenkreuz, welches vom Benutzer berührt werden soll.</string>
+    <string name="placeholder">Platzhalter-Text</string>
+    <string name="square">Quadrat</string>
+    <string name="title_activity_explanatory_scree">ExplanatoryScree</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_button_select">ButtonSelect</string>
+    <string name="title_activity_explanation_before_start">ExplanationBeforeStart</string>
+    <string name="title_activity_push_points">PushPoints</string>
+    <string name="title_activity_text_size">TextSize</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="colour">Farbe</string>
+    <string name="error">ERROR</string>
+    <string name="data">Personalisierungsdaten</string>
+</resources>
